@@ -18,12 +18,14 @@
         name: "raffle",
         data() {
             return {
-                luckArr: [{id: "1", itemname: "一等奖"},
+                luckArr: [
+                    {id: "1", itemname: "一等奖"},
                     {id: "2", itemname: "二等奖"},
                     {id: "3", itemname: "三等奖"},
                     {id: "4", itemname: "四等奖"},
                     {id: "5", itemname: "五等奖"},
-                    {id: "6", itemname: "未中奖"}],
+                    {id: "6", itemname: "未中奖"}
+                    ]
 
 
             }
